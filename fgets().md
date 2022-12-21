@@ -18,7 +18,7 @@
 
 #### Examples:
 ```c
-FILE* tmo=tmpfile();
+FILE* tmpf=tmpfile();
 fputs("Alan Turing\n", tmpf);
 fputs("John von Neumann\n", tmpf);
 fputs("Alonzo Church\n", tmpf);
